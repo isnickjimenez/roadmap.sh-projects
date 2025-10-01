@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+section
+body {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.div-contenedor {
+    width: 80vw;
+    height: auto;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #f3f3f3;
+    border: 2px solid #333;
+    border-radius: 20px;
+}
+
+/*** the line of cv ***/
+.div-line-nav{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*** the title of cv ***/
+.div-title-header {
+    font-size: x-large;
+    margin: 0;
+}
+
+.div-tipe-header {
+    font-size: medium;
+    color: green;
+    margin: 0;
+}
+
+.div-content-section {
+    font-size: small;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: small;
+    margin-bottom: 2px;
+}
+
+.section-skill{
+    font-size: small;
+    margin: 0;
+}
+
+.section-title {
+    color: #2325ac;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.section-list {
+    margin: 0;
+}
+
+.section-expert {
+    margin-bottom: 20px;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.section-expert-time{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
