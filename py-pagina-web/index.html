@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" role="button" class="header__open-nav-button">
+            =
+        </label>
+        <div class="header__logo-container">
+            <img src="./recursos/ada-logo.png" alt="Logo de ADA" class="header__logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">About</a></li>
+                <li class="header__nav-item"><a href="#portfolio">PortFolio</a></li>
+                <li class="header__nav-item"><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img--container">
+                <img src="recursos/dalto.jpg" alt="Foto de Dalto" class="profile__img">
+            </div>
+            <div class="profile__data--container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>¿Quien es Pepito?</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsa quaerat quia? Ad corrupti
+                            cumque dignissimos amet totam placeat perspiciatis beatae itaque ullam qui nobis facere,
+                            obcaecati quos nostrum! Cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Hic quasi vero iure rem modi omnis consequuntur quidem, aperiam a quibusdam quisquam
+                            necessitatibus ad perferendis magni ducimus non minus quas! Quam!
+                        </p>
+                    </div>
+                    <dic class="profile__skills--container">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">
+                                        80%
+                                    </div>
+                                </div>
+                                <span class="profile__skill-name">
+                                    HTML
+                                </span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">
+                                        80%
+                                    </div>
+                                </div>
+                                <span class="profile__skill-name">
+                                    CSS
+                                </span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--50">
+                                        50%
+                                    </div>
+                                </div>
+                                <span class="profile__skill-name">
+                                    JAVASCRIPT
+                                </span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--30">
+                                        30%
+                                    </div>
+                                </div>
+                                <span class="profile__skill-name">
+                                    REACT
+                                </span>
+                            </li>
+                        </ul>
+                    </dic>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__project-title">Portfolio</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>  
+        </div>
+    </section>
+
+    <section class="form" id="form">
+        <h2 class="form__title">Contact</h2>
+        <form action="" class="form__form">
+            <div class="form__input-container">
+                <label for="">
+                    Nombre:
+                    <input type="text" class="form__input-label" placeholder="Jhon">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">
+                    Apellido:
+                    <input type="text" class="form__input-label" placeholder="Doe Duran">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">
+                    Email:
+                    <input type="text" class="form__input-label" placeholder="jhondoe@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">
+                    Mensaje:
+                    <textarea name="" id="" placeholder="Escribe aqui un mensaje..."></textarea>
+                </label>
+            </div>
+        
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        All Rights Reserved for <a target="_blank" href="https://isnickjimenez.github.io/portfolio/">Nick Jimenez</a> Copyrigth © 2025. 
+    </footer>
+</body>
+
+</html>
